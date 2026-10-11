@@ -1,0 +1,2 @@
+# partyapp
+ paty appp build
