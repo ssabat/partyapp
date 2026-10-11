@@ -1,0 +1,97 @@
+{
+  "source": "sample",
+  "label": "Sample dataset — not an authoritative production audit source. Replace this file with the real applicant records before using these figures as an audit.",
+  "asOfSupported": false,
+  "records": [
+    {
+      "applicationId": "APP-1001",
+      "applicantId": "A-100",
+      "applicantName": "Ngozi Adeyemi",
+      "country": "Nigeria",
+      "fundingStatus": "approved",
+      "currency": "USD",
+      "requestedAmount": 10000,
+      "providedAmount": 0
+    },
+    {
+      "applicationId": "APP-1002",
+      "applicantId": "A-100",
+      "applicantName": "Ngozi Adeyemi",
+      "country": "Nigeria",
+      "fundingStatus": "partially_funded",
+      "currency": "USD",
+      "requestedAmount": 5000,
+      "providedAmount": 2000
+    },
+    {
+      "applicationId": "APP-1003",
+      "applicantId": "A-200",
+      "applicantName": "James Otieno",
+      "country": "Kenya",
+      "fundingStatus": "funded",
+      "currency": "USD",
+      "requestedAmount": 8000,
+      "providedAmount": 8000
+    },
+    {
+      "applicationId": "APP-1004",
+      "applicantId": "A-300",
+      "applicantName": "Marta Silva",
+      "country": "",
+      "fundingStatus": "pending",
+      "currency": "EUR",
+      "requestedAmount": 1000,
+      "providedAmount": null
+    },
+    {
+      "applicationId": "APP-1005",
+      "applicantId": "A-400",
+      "applicantName": "Ama Boateng",
+      "country": "Ghana",
+      "fundingStatus": "declined",
+      "currency": "USD",
+      "requestedAmount": 4000,
+      "providedAmount": 0
+    },
+    {
+      "applicationId": "APP-1006",
+      "applicantId": "A-500",
+      "applicantName": "Priya Shah",
+      "country": "United Kingdom",
+      "fundingStatus": "approved",
+      "currency": "GBP",
+      "requestedAmount": 2000,
+      "providedAmount": 500
+    },
+    {
+      "applicationId": "APP-1007",
+      "applicantId": "A-600",
+      "applicantName": "Camille Bernard",
+      "country": "France",
+      "fundingStatus": "approved",
+      "currency": "USD",
+      "requestedAmount": null,
+      "providedAmount": 100
+    },
+    {
+      "applicationId": "APP-1008",
+      "applicantId": "A-700",
+      "applicantName": "Luis Ortega",
+      "country": "Mexico",
+      "fundingStatus": "partially_funded",
+      "currency": "USD",
+      "requestedAmount": 7500,
+      "providedAmount": 7500
+    },
+    {
+      "applicationId": "APP-1009",
+      "applicantId": "A-100",
+      "applicantName": "Ngozi Adeyemi",
+      "country": "Ghana",
+      "fundingStatus": "pending",
+      "currency": "USD",
+      "requestedAmount": 1200,
+      "providedAmount": 0
+    }
+  ]
+}

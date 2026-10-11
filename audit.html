@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Audit Report</title>
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><a href="index.html">Party App</a></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="audit.html" aria-current="page">Audit Report</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Audit Report</h1>
+    <p id="source-banner" class="banner" hidden></p>
+    <p id="status-notice" class="notice" hidden></p>
+    <form id="filters" class="toolbar">
+      <label>Country
+        <select id="country" name="country">
+          <option value="">All countries</option>
+        </select>
+      </label>
+      <label>Funding status
+        <select id="status" name="status">
+          <option value="">All statuses</option>
+        </select>
+      </label>
+      <button type="button" id="clear" class="secondary">Clear filters</button>
+      <button type="button" id="refresh">Refresh</button>
+      <div class="freshness" id="freshness">Not loaded</div>
+    </form>
+    <section id="report" aria-live="polite"></section>
+    <section class="panel definitions">
+      <h2>Definitions</h2>
+      <ul>
+        <li><strong>Current totals.</strong> Figures are the file as loaded now. This page does not store historical snapshots, so a past date cannot be selected.</li>
+        <li><strong>Applicants</strong> are distinct <code>applicantId</code> values. <strong>Applications</strong> are individual records. One applicant can have several applications.</li>
+        <li><strong>Amount to be funded</strong> is requested minus provided, only for <em>approved</em> and <em>partially funded</em> applications where both amounts are known and the remainder is positive. Pending is not a commitment. Declined and fully funded applications are excluded.</li>
+        <li><strong>Currencies are never combined.</strong> There is no conversion policy.</li>
+        <li><strong>Unknown country</strong> holds records with a blank country so application counts still reconcile.</li>
+        <li><strong>Missing amounts</strong> stay unknown. They are not treated as zero.</li>
+      </ul>
+    </section>
+  </main>
+  <script type="module" src="js/audit.js"></script>
+</body>
+</html>
